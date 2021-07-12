@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VerificationSuccessful"
+    android:orientation="vertical">
+
+
+        <EditText
+            android:layout_width = "match_parent"
+            android:layout_height = "wrap_content"
+            android:id = "@+id/email"
+            android:hint = "Enter Email id"
+            android:inputType = "textEmailAddress"/>
+
+        <EditText
+            android:layout_width = "match_parent"
+            android:layout_height = "wrap_content"
+            android:id = "@+id/password"
+            android:hint = "Password"
+            android:inputType = "textPassword"/>
+
+    <LinearLayout
+        android:layout_width = "match_parent"
+        android:gravity = "center"
+        android:orientation="horizontal"
+        android:layout_height = "wrap_content">
+        <Button
+            android:id = "@+id/passwordVisible"
+            android:layout_width = "wrap_content"
+            android:layout_height = "wrap_content"
+            android:text = "Show" />
+        <Button
+            android:id = "@+id/click"
+            android:layout_width = "wrap_content"
+            android:layout_height = "wrap_content"
+            android:text = "Click" />
+    </LinearLayout>
+</LinearLayout>

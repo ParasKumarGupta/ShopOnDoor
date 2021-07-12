@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "563415195622",
+    "project_id": "shopondoor-e9bfe",
+    "storage_bucket": "shopondoor-e9bfe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:563415195622:android:7300855aa842a333fe4027",
+        "android_client_info": {
+          "package_name": "com.example.shopondoor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "563415195622-7iji6e5g4j0stc2cb4hdq3j7ubmphb64.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6EdA6eoQZ4Pje7sWQnSIrU6A7LBH5Mfc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "563415195622-7iji6e5g4j0stc2cb4hdq3j7ubmphb64.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

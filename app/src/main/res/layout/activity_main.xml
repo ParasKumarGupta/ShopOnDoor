@@ -5,49 +5,55 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="@drawable/bg">
+    android:background="@color/white">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Shop On Door"
+            android:fontFamily="@font/aclonica"
             android:textSize="30sp"
-            android:textColor="#F1EBEB"
-            android:textStyle="bold"
+            android:textColor="#D30D9A"
             android:textAlignment="center"
-            android:gravity="center_horizontal" />
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:gravity="center_horizontal"
+            tools:ignore="HardcodedText" />
 
         <ImageView
-            android:layout_width="110dp"
-            android:layout_height="110dp"
+            android:layout_width="180dp"
+            android:layout_height="100dp"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="20dp"
-            android:background="@color/white"
-
-            android:src="@drawable/logo" />
-
+            android:foregroundGravity="center"
+            android:src="@drawable/logo"
+            tools:ignore="ContentDescription,MissingConstraints"
+            tools:layout_editor_absoluteX="130dp"
+            tools:layout_editor_absoluteY="28dp" />
         <ProgressBar
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
+            android:indeterminateTint="#FF0"
             android:layout_marginTop="20dp"
-            android:indeterminateTint="#F4F1EE"
             android:indeterminate="true"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Get Your Product Delivered As Faster as Flash"
+            android:text="Get Your Product Delivered As Fastest As Flash"
+            android:textStyle="bold"
             android:layout_marginTop="40dp"
             android:gravity="center"
-            android:textStyle="bold"
             android:textSize="20dp"
-            android:textColor="#EADDE0"/>
+            android:textColor="#E80F98"
+            android:fontFamily="@font/aclonica"
+            tools:ignore="HardcodedText,SpUsage" />
 
     </LinearLayout>
 
